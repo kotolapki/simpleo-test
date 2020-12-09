@@ -54,18 +54,6 @@ function Autorization({changeLoginStatus, addNewUser, changeErrorLoginStatus, lo
         default: 
           addNewUserToLocalStorage(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
           addNewUser(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
-      }
-
-    console.log(errorMessage);
-      // if (checkLocalUsers(e.target[2].value, e.target[3].value, 'registration', e.target[0].value, e.target[1].value)) {
-
-      // }
-      // if (checkLocalUsers(e.target[2].value, e.target[3].value, 'registration', e.target[0].value, e.target[1].value)) {
-      //   addNewUserToLocalStorage(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
-      //   addNewUser(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
-      // } else {
-      //   changeErrorLoginStatus();
-      // }
     }
 
     e.target.reset();
