@@ -1,0 +1,9 @@
+.table__cell {
+  padding: 20px 0 20px 10px;
+}
+
+.table__cell--second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

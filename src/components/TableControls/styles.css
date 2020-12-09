@@ -1,0 +1,30 @@
+.table__cell-controls-wrapper {
+  display: flex;
+}
+
+.table__cell-control-btn {
+  margin-right: 25px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: opacity 0.3s;
+}
+
+.table__cell-control-btn:hover {
+  opacity: 0.5;
+}
+
+.table__cell-control-btn:active {
+  opacity: 0.8;
+}
+
+.table__cell-control-btn--edit {
+  background-image: url('../../assets/img/pen.png');
+}
+
+.table__cell-control-btn--delete {
+  background-image: url('../../assets/img/basket.png');
+}
