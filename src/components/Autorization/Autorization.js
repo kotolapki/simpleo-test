@@ -54,6 +54,7 @@ function Autorization({changeLoginStatus, addNewUser, changeErrorLoginStatus, lo
         default: 
           addNewUserToLocalStorage(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
           addNewUser(e.target[0].value, e.target[1].value, e.target[2].value, e.target[3].value, getRandomId());
+      }
     }
 
     e.target.reset();
